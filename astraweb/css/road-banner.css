@@ -1,0 +1,258 @@
+.road-banner {
+  background: linear-gradient(to right, rgb(109, 0, 155), 2%, #511edf, #5c2ede);
+  width: 100%;
+  height: auto;
+  padding: 40px 0px 60px ;
+  position: relative;
+}
+
+.road-banner-heading {
+  max-width: 2000px;
+  padding: 30px 30px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.r-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-size: 32px;
+  text-align: center;
+}
+
+.r-p {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+font-size: 14px;
+  text-align: center;
+}
+
+
+
+.r-b-card-wrap{
+    /* background-color: rgb(114, 0, 19); */
+    width: 300px;
+    padding: 20px;
+    color: white;
+}
+
+.rb-card-h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+    font-size: 18px;
+}
+
+.rb-card-wrap-p{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 14px;
+    /* text-align: justify; */
+    line-height: 24px;
+}
+
+
+.road-banner-cards{
+    max-width: 2000px;
+    padding: 30px 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 1rem;
+    
+    flex-wrap: wrap;
+}
+
+
+.absolute-card{
+    /* background-color: pink; */
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 1rem;
+    
+    flex-wrap: wrap;
+}
+
+
+.absolute-c-wrap{
+    background-color: white;
+    width: 290px;
+    padding: 50px 10px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.6rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 15px;
+}
+
+
+
+.percentage-ab-card{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+.d-ab-p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+/* --------pre---------- */
+
+
+
+@media screen and (max-width:800px) {
+    .absolute-card{
+        /* background-color: pink; */
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       gap: 1rem;
+        
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+@media screen and (max-width:400px) {
+    
+.absolute-c-wrap{
+    background-color: white;
+    width:300px;
+    padding: 50px 10px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.6rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 15px;
+}
+
+}
+
+@media screen and (max-width:400px) {
+    .road-banner-heading {
+        max-width: 2000px;
+        padding: 30px 30px;
+        margin: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        color: white;
+      }
+
+      .r-heading {
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        font-size: 32px;
+        text-align: left;
+      }
+      
+      .r-p {
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+      font-size: 14px;
+        text-align: left;
+        line-height: 25px;
+      }
+      
+      .road-banner-cards{
+        max-width: 2000px;
+        padding: 30px 30px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       gap: 1rem;
+        
+        flex-wrap: wrap;
+    }
+    
+
+    .r-b-card-wrap{
+        /* background-color: rgb(114, 0, 19); */
+        width: 300px;
+        padding: 20px;
+        color: white;
+    }
+}
+
+
+
+
+@media screen and (max-width:450px) {
+    .road-banner-heading {
+    width: 100%;
+        padding: 30px 30px;
+        /* margin: auto; */
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        color: white;
+      }
+
+      .r-heading {
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        font-size: 32px;
+        text-align: left;
+      }
+      
+      .r-p {
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+      font-size: 14px;
+        text-align: left;
+        line-height: 25px;
+      }
+      
+      .road-banner-cards{
+        max-width: 2000px;
+        padding: 30px 30px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       gap: 1rem;
+        
+        flex-wrap: wrap;
+    }
+    
+
+    .r-b-card-wrap{
+        /* background-color: rgb(114, 0, 19); */
+        width: 300px;
+        padding: 20px;
+        color: white;
+    }
+}

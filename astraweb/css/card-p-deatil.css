@@ -1,0 +1,202 @@
+.pro-card-details{
+  
+    max-width: 1000px;
+    height: auto;
+    margin: 100px  auto;
+    
+}
+
+.p-f-t{
+   
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.p-f-c-card-ing{
+
+    padding: 10px;
+}
+
+.p-f-pera{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.p-f-pera-span{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.688);
+    font-weight: normal;
+}
+
+.p-f-c-card-ing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.p-f-c-card-ing img{
+    width: 10%;
+    height: 10%;
+}
+
+
+/* -----review------------ */
+.review-card-wraper{
+    width: 100%;
+    height: auto;
+    margin: 100px  auto;
+    /* background-color: pink; */
+
+}
+
+.top-message-re-details{
+    /* background-color: green; */
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+
+
+}
+
+.top-message-re-details h3{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+.review-card{
+    /* background-color:mediumslateblue ; */
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    flex-wrap: wrap;
+
+}
+.re-card{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+padding: 20px;
+gap: 0.8rem;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.re-card img{
+    width: 150px;
+}
+
+.re-rating{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+
+}
+
+
+
+.rating-star{
+    font-size: 17px;
+    color: rgb(247, 185, 0);
+}
+
+
+.man-card{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    
+    background-color: rgb(255, 255, 255);
+padding: 20px;
+/* gap: 0.1rem; */
+/* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+
+.man-info{
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 10px ;
+    gap: 0.3rem;
+}
+.man-img{
+    width: 100px;
+    border-radius: 100px;
+}
+.name-m{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.782);
+
+
+}
+
+.man-p{
+    /* background-color: greenyellow; */
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.668);
+}
+
+.man-p-span{
+    font-weight: bold;
+}
+
+/* -----review--media------- */
+
+@media screen and (max-width:500px) {
+    .man-card{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+        background-color: rgb(255, 255, 255);
+    padding: 20px;
+    /* gap: 0.1rem; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    
+}
+
+
+/* ----details-card-media------ */
+@media screen and (max-width:500px) {
+    .p-f-c-card-ing{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    
+    .p-f-c-card-ing img{
+        width: 20%;
+        height: 20%;
+    }
+    
+}
